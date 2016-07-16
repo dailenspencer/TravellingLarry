@@ -1,0 +1,558 @@
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+#parallax-window,
+#parallax-window-section-2,
+#parallax-window-section-3 {
+    height: 100%;
+    background: transparent;
+}
+
+#parallax-window-section-2 {
+    height: 450px;
+    position: relative;
+}
+
+#parallaxSec2Link {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    font-family: 'Amatic SC';
+    font-size: 64px;
+    color: white;
+    text-decoration: none;
+}
+
+#parallax-window-section-3 {
+    height: 600px;
+    position: relative;
+}
+
+#mediaform{
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#mediaformheader{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC';
+  font-size: 35px;
+  color:white;
+  font-size: 75px;
+}
+
+#mediapassword{
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid black;
+  border-style: none;
+  background-color: transparent;
+  font-family: 'Amatic SC';
+  font-size: 30px;
+  width:100%;
+  height: 75px;
+  color:white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+#MainBody {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    min-width: 400px;
+}
+
+#MainBackgroundVideo {
+    width: 100%;
+}
+
+#NavBtnOne,
+#NavBtnTwo {
+    width: 40%;
+    height: 100%;
+    top: 4px;
+    bottom: 4px;
+    right: 0px;
+    float: right;
+    margin-right: 0px;
+    paddingRight: 0px;
+    background-color: Transparent;
+    backgroundRepeat: no-repeat;
+    color: #030303;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Amatic SC';
+    font-size: 22px;
+}
+
+#NavBtnOne:hover,#NavBtnTwo:hover,#NavBtnThree:hover,#NavBtnFour:hover{
+    color: #A8A8A8;
+}
+
+
+#OhmImg {
+    position: absolute;
+    left: 50%;
+    top: 25;
+    transform: translateX(-50%) translateY(-50%);
+    height: 45px;
+}
+
+#NavBtnThree,
+#NavBtnFour {
+    width: 30%;
+    height: 100%;
+    top: 4px;
+    bottom: 4px;
+    right: 0px;
+    float: left;
+    margin-right: 0px;
+    paddingRight: 0px;
+    background-color: Transparent;
+    backgroundRepeat: no-repeat;
+    color: #030303;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Amatic SC';
+    font-size: 22px;
+}
+
+#MainMessageText {
+    position: fixed;
+    z-index: -99;
+    left: 50%;
+    top: 275px;
+  /* top:50%;*/
+    color: #ffffff;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Amatic SC';
+    font-size: 55px;
+}
+
+#CoastLineLocation, #VietnamLocation, #ShanghaiLocation{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+
+    
+
+.bounce {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    margin-top: -25px;
+    margin-left: -25px;
+    height: 50px;
+    width: 50px;
+    background: red;
+    -webkit-animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        bottom: 5px;
+    }
+    25%,
+    75% {
+        bottom: 15px;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+#BannerSec1 {
+    width: 100%;
+    height: 300px;
+    top: 0px;
+    margin-top: 0px;
+    overflow: auto;
+    background-color: white;
+}
+
+#Banner1SecLeft {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+#Banner1SecLeftHeader {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -45px;
+    font-family: 'Amatic SC';
+    font-size: 100px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#Banner1SecRight {
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+
+#Banner1SecRightParagraph {
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    margin-right: 5%;
+    margin-left: 9%;
+}
+
+#BannerSec2 {
+    width: 100%;
+    height: 400px;
+    top: 0px;
+    margin-top: 0px;
+    overflow: scroll;
+    background-color: white;
+    position: relative;
+}
+
+#Banner2SecLeft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/surfers.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#share {
+    position:absolute;
+    left: 47%;
+    top:50px;
+    color:white;
+    transform: translateX(-50%);
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    
+}
+
+#icon-facebook {
+    width:55px;
+    height:55px;
+    border-color: white;
+    border-width: 1px;
+    background-image: url('../images/facebook-letter-logo.png');
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top:50%;
+    left:25%;
+    border-style: solid;
+    border-radius: 27.5px;
+    background-size: contain;
+
+}
+
+#icon-facebook:hover {
+    opacity: 0.5;
+}
+
+#icon-instagram {
+    width:55px;
+    height:55px;
+    border-color: white;
+    border-width: 1px;
+    background-image: url('../images/instagram-symbol.png');
+    position: absolute;
+    top:50%;
+    right:25%;
+    border-style: solid;
+    border-radius: 27.5px;
+    transform: translateY(-50%);
+    background-size: contain;
+}
+
+#icon-instagram:hover {
+    opacity: 0.5;
+}
+
+
+#Banner2SecRight {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/overheadSurf.jpg');
+    background-size: cover;
+    position: relative
+}
+
+#contact {
+    position:absolute;
+    left: 50%;
+    top:50px;
+    transform: translateX(-50%);
+    color:white;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+}
+
+#icon-phone {
+    width:55px;
+    height:55px;
+    border-color: white;
+    border-width: 1px;
+    background-image: url('../images/phone-receiver.png');
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top:50%;
+    left:25%;
+    border-style: solid;
+    border-radius: 27.5px;
+    background-size: contain;
+}
+
+#phoneNumber {
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+    font-family: 'Amatic SC';
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#Footer {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    #MainMessageText {
+        top: 250px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #MainMessageText {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #MainMessageText {
+        top: 200px;
+        font-size: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    #MainMessageText {
+        top: 200px;
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    #parallax-window{
+        height: 400px;
+    }
+
+    #NavBtnOne,
+    #NavBtnTwo,
+    #NavBtnThree,
+    #NavBtnFour {
+        font-size: 17px
+    }
+    #OhmImg {
+        height: 35px;
+    }
+    #MainMessageText {
+        top: 200px;
+        font-size: 35px;
+    }
+
+}
+
+
+
+/************************
+Locations
+*************************/
+.header-GreenLand{
+    position: relative;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    background-image: url('../images/GreenLand.jpg');
+    background-size: auto 600px;
+    background-color: #000;
+    background-position: top center;
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+ -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-Norway{
+    position: relative;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url('../images/Norway.jpg');
+    background-size: auto 600px
+    background-position: top center;
+    /*background-attachment: fixed;*/
+background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-Vietnam{
+    position: relative;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    background-image: url('../images/Vietnam.jpg');
+    background-size: auto 600px;
+    background-color: #000;
+    background-position: top center;
+  /*  background-attachment: fixed;*/
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-Space{
+    position: relative;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    background-image: url('../images/Space.jpg');
+    background-size: auto 600px;
+    background-color: #000;
+    background-position: top center;
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-MountKiliminjaro{
+    position: relative;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    background-image: url('../images/MountKiliminjaro.jpg');
+    background-size: auto 600px;
+    background-color: #000;
+    background-position: top center;
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.GreenLand-header-fade{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: 10px;
+    opacity: 0;
+    background-color: #000;
+}
+.Norway-header-fade{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: 10px;
+    opacity: 1;
+    background-color: #000;
+}
+.Vietnam-header-fade{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: 10px;
+    opacity: 1;
+    background-color: #000;
+}
+.Space-header-fade{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: 10px;
+    opacity: 1;
+    background-color: #000;
+}
+
+.MountKiliminjaro-header-fade{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: 10px;
+    opacity: 1;
+    background-color: #000;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+    color: #303030 ;
+    max-height: 50%
+}
+
